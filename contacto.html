@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/contacto.css">
+  <link rel="stylesheet" href="./style/index.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <ul class="menu">
+          <li>
+            <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
+          </li>
+          <br>
+          <li>
+            <a class="botton" href="index.html">INICIO</a>
+          </li>
+          <li>
+            <a class="botton" href="productos.html">PRODUCTOS</a>
+          </li>
+          <li>
+            <a class="botton" href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+          </li>
+          <li>
+            <a class="botton" href="contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <form action="#" method="GET">
+    <fieldset>
+      <legend>
+        <h1>CONTACTO</h1>
+      </legend>
+
+      <!-- input Nombre -->
+      <b><label for="Nombre">Nombre</label></b>
+      <br>
+      <input placeholder="Ingrese su nombre" id="Nombre">
+
+      <br>
+
+      <!-- Input apellido -->
+      <b><label for="Apellido">Apellido</label></b>
+      <br>
+      <input type="text" placeholder="Ingrese su apellido" id="Apellido">
+
+      <br>
+
+      <hr>
+
+      <!-- Input Genero -->
+      <b><label for="Sexo">Sexo</label></b>
+      <br>
+      <label for="Hombre">Hombre</label>
+      <input type="radio" name="Genero">
+      <br>
+
+
+      <label for="Mujer">Mujer</label>
+      <input type="radio" name="Genero">
+
+      <br>
+
+      <label for="Otro">Otro</label>
+      <input type="radio" name="Genero">
+
+      <hr>
+
+      <!-- input Email -->
+      <b><label for="e-mail">e-mail</label></b>
+      <br>
+      <input type="email" name="email" placeholder="nombre@ejemplo.com" />
+
+      <br>
+      <hr>
+      <u>
+        <h2>Comentario</h2>
+      </u>
+      <textarea rows="10" cols="25"></textarea>
+      <br>
+      <div>Suscribirse al Newsletter</div>
+      <input type="checkbox" name="acepta" value="1" />
+
+      <hr>
+
+      <div>Acepta términos y condiciones</div>
+      <input type="checkbox" name="acepta" value="1" />
+      <br>
+      <hr>
+
+      <!-- Sumbit Button-->
+      <button type="submit">Enviar</button>
+      <input type="reset" value="Limpiar formulario" />
+    </fieldset>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+
+h1 {
+  color: #ff8882;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #ff8882;
+}
+
+section {
+  font-family: "Heebo", sans-serif;
+  margin: 2rem;
+  padding: 0;
+}
+div{
+  padding: 0.5rem;
+}

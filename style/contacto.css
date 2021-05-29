@@ -1,0 +1,9 @@
+form{
+  width: 80%;
+  padding: 2rem;
+  height: 100%;
+}
+input:focus {
+height: 30px;
+  /* border:#ff8882; */
+}

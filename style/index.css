@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header {
+  /* background-color: #ff8882; */
+  color: #fff;
+  margin: 0;
+  width: 25%;
+  height: 100vh;
+  background:linear-gradient(to left, #ff8882, #d8ad9c);
+}
+
+.menu {
+  list-style: none;
+  /* text-align: center; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.fullh {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.botton:hover {
+  height: 110;
+  background-color: #d8ad9c;
+  border-radius: 10px;
+  padding: 3px 3px;
+
+}
