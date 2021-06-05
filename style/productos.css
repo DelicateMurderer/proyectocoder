@@ -1,7 +1,10 @@
 
-table {
+/* table {
   font-family: 'Heebo', sans-serif;
   font-size: 85%
+} */
+.card-body {
+padding: 0 1rem;
 }
 
 .grid {
@@ -33,6 +36,6 @@ table {
   transform: rotateY(50deg);
 }
 
-.tabla {
+/* .tabla {
   align-self:center;
-}
+} */
