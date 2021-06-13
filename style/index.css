@@ -9,13 +9,14 @@ header {
   color: #fff;
   margin: 0;
   width: 25%;
-  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
   background:linear-gradient(to left, #ff8882, #d8ad9c);
 }
 
 .menu {
   list-style: none;
-  /* text-align: center; */
   flex-direction: column;
   display: flex;
   justify-content: center;

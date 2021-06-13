@@ -36,6 +36,10 @@ padding: 0 1rem;
   transform: rotateY(50deg);
 }
 
-/* .tabla {
-  align-self:center;
-} */
+#badge-new {
+  font-size: 0.65rem;
+}
+
+.descripcion-lentes {
+  font-size: 0.8rem;
+}
