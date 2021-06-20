@@ -1,0 +1,71 @@
+/* header {
+  color: #fff;
+  margin: 0;
+  width: 25%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background:linear-gradient(to left, #ff8882, #d8ad9c);
+} */
+.fondo {
+  background: -webkit-gradient(linear, right top, left top, from(#ff8882), to(#d8ad9c));
+  background: linear-gradient(to left, #ff8882, #d8ad9c);
+}
+
+.img-fondo {
+  /* The image used */
+  background-image: url("../img/imagen-inicio.PNG");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* table {
+  font-family: 'Heebo', sans-serif;
+  font-size: 85%
+} */
+.card-body {
+  padding: 0 1rem;
+}
+
+#badge-new {
+  font-size: 0.65rem;
+}
+
+.descripcion-lentes {
+  font-size: 0.8rem;
+}
+
+h1 {
+  color: #ff8882;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #ff8882;
+}
+
+section {
+  font-family: "Heebo", sans-serif;
+  margin: 2rem;
+  padding: 0;
+}
+
+div {
+  padding: 0.5rem;
+}
+
+form {
+  width: 80%;
+  padding: 2rem;
+  height: 100%;
+}
+
+input:focus {
+  height: 30px;
+  /* border:#ff8882; */
+}
+/*# sourceMappingURL=main.css.map */

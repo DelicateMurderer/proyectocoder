@@ -6,37 +6,121 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OPTICA</title>
-  <link rel="stylesheet" href="style/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/main.css">
 </head>
 
-<body>
-    <header>
-      <nav>
-        <ul class="menu">
-          <li>
-            <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
+<body class="d-flex">
+  <header class="fondo vh-100 w-25">
+    <nav class="navbar navbar-expand-lg navbar-dark fondo vh-100 flex-row">
+      <div class="container-fluid flex-column vh-100 justify-content-start">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="./img/logo.png" alt="logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">CONTACTO</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="d-flex flex-column flex-shrink-0 p-3 fondo vh-100"  style="width: 280px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img src="./img/logo.png" alt="logo">
+      </a>
+      <hr>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">
+              INICIO
+            </a>
           </li>
-          <br>
           <li>
-            <a class="botton" href="index.html">INICIO</a>
+            <a href="#" class="nav-link link-dark">
+              PRODUCTOS
+            </a>
           </li>
           <li>
-            <a class="botton" href="productos.html">PRODUCTOS</a>
+            <a href="#" class="nav-link link-dark">
+              SOBRE NOSOTROS
+            </a>
           </li>
           <li>
-            <a class="botton" href="sobre-nosotros.html">SOBRE NOSOTROS</a>
-          </li>
-          <li>
-            <a class="botton" href="contacto.html">CONTACTO</a>
+            <a href="#" class="nav-link link-dark">
+              CONTACTO
+            </a>
           </li>
         </ul>
-      </nav>
-    </header>
-  <main class="fullh">
-    <div class="fullh">
-      <img src="./img/imagen-inicio.PNG" alt="imagen-inicio" width="100%" class="fullh">
-    </div>
+
+      </div>
+      
+      <hr>
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+          <strong>mdo</strong>
+        </a>
+        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+          <li><a class="dropdown-item" href="#">New project...</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Sign out</a></li>
+        </ul>
+      </div>
+    </div> -->
+    <!-- <nav>
+      <ul class="menu">
+        <li>
+          <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
+        </li>
+        <br>
+        <li>
+          <a class="botton" href="index.html">INICIO</a>
+        </li>
+        <li>
+          <a class="botton" href="productos.html">PRODUCTOS</a>
+        </li>
+        <li>
+          <a class="botton" href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+        </li>
+        <li>
+          <a class="botton" href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </nav> -->
+  </header>
+  <main class="container-fluid p-0 vh-100 img-fondo">
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
