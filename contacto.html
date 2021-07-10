@@ -13,10 +13,10 @@
 </head>
 
 <body class="d-flex">
-  <header class="fondo w-25 sticky">
+  <header class="fondo vh-100 w-25">
     <nav class="navbar navbar-expand-lg navbar-dark fondo vh-100 flex-row">
       <div class="container-fluid flex-column vh-100 justify-content-start">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <img src="./img/logo.png" alt="logo" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,79 +39,148 @@
             </li>
           </ul>
         </div>
+        <div class="icon-item">
+          <a href="https://www.instagram.com/">
+            <img src="./img/insta.png" alt="instagram" height="30" width="30">
+          </a>
+
+          <a href="https://www.facebook.com/">
+            <img src="./img/fb.png" alt="facebook" height="30" width="30">
+          </a>
+
+          <a href="https://twitter.com/">
+            <img src="./img/tw.png" alt="twitter" height="30" width="30">
+          </a>
+        </div>
       </div>
     </nav>
   </header>
-  <form action="#" method="GET">
-    <fieldset>
-      <legend>
-        <h1>CONTACTO</h1>
-      </legend>
+  <main class="container-fluid p-0 vh-100">
+    <section class="container animate__animated" id="bootstrap-obligatorio-2">
+      <div class="container col-xxl-8 px-4 py-3">
+        <h2 class="text-center">CONTACTO</h2>
+        <hr>
+        <form class="bg-light p-4 w-75 mx-auto">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="nombre" class="form-label">Nombre de pila</label>
+              <input type="text" class="form-control" id="nombre" placeholder="" value="" required="">
+            </div>
 
-      <!-- input Nombre -->
-      <b><label for="Nombre">Nombre</label></b>
-      <br>
-      <input placeholder="Ingrese su nombre" id="Nombre">
-
-      <br>
-
-      <!-- Input apellido -->
-      <b><label for="Apellido">Apellido</label></b>
-      <br>
-      <input type="text" placeholder="Ingrese su apellido" id="Apellido">
-
-      <br>
-
-      <hr>
-
-      <!-- Input Genero -->
-      <b><label for="Sexo">Sexo</label></b>
-      <br>
-      <label for="Hombre">Hombre</label>
-      <input type="radio" name="Genero">
-      <br>
+            <div class="col-sm-6">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido" placeholder="" value="" required="">
+            </div>
+            <div class="sex-form">
+              <!-- Input Genero -->
+              <b><label for="Sexo">Sexo</label></b>
+              <br>
+              <label for="Hombre">Hombre</label>
+              <input type="radio" name="Genero">
+              <br>
 
 
-      <label for="Mujer">Mujer</label>
-      <input type="radio" name="Genero">
+              <label for="Mujer">Mujer</label>
+              <input type="radio" name="Genero">
 
-      <br>
+              <br>
 
-      <label for="Otro">Otro</label>
-      <input type="radio" name="Genero">
+              <label for="Otro">Otro</label>
+              <input type="radio" name="Genero">
 
-      <hr>
+              <hr>
+            </div>
 
-      <!-- input Email -->
-      <b><label for="e-mail">e-mail</label></b>
-      <br>
-      <input type="email" name="email" placeholder="nombre@ejemplo.com" />
 
-      <br>
-      <hr>
-      <u>
-        <h2>Comentario</h2>
-      </u>
-      <textarea rows="10" cols="25"></textarea>
-      <br>
-      <div>Suscribirse al Newsletter</div>
-      <input type="checkbox" name="acepta" value="1" />
+            <!-- <div class="col-12">
+              <label for="nombreUsuario" class="form-label">Nombre de usuario</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="nombreUsuario" placeholder="Nombre de usuario" required="">
+              </div>
+            </div> -->
 
-      <hr>
+            <div class="col-12">
+              <label for="email" class="form-label">Correo electrónico <span
+                  class="text-muted">(opcional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
 
-      <div>Acepta términos y condiciones</div>
-      <input type="checkbox" name="acepta" value="1" />
-      <br>
-      <hr>
+            <!-- <div class="col-12">
+              <label for="direccion" class="form-label">Habla a</label>
+              <input type="text" class="form-control" id="direccion" placeholder="1234 Main St" required="">
+            </div> -->
 
-      <!-- Sumbit Button-->
-      <button type="submit">Enviar</button>
-      <input type="reset" value="Limpiar formulario" />
-    </fieldset>
-  </form>
+            <div class="col-12">
+              <label for="direccion2" class="form-label">Dirección 2 <span class="text-muted">(opcional)</span></label>
+              <input type="text" class="form-control" id="direccion2" placeholder="Apartmento o suite">
+            </div>
+
+            <div class="col-md-4">
+              <label for="pais" class="form-label">País</label>
+              <select class="form-select" id="pais" required="">
+                <option value="">Escoger...</option>
+                <option>Argentina</option>
+                <option>Chile</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="Provincia" class="form-label">Provincia</label>
+              <select class="form-select" id="Estado" required="">
+                <option value="">Escoger...</option>
+                <option>Buenos Aires</option>
+                <option>Mendoza</option>
+                <option>Santiago de Chile</option>
+              </select>
+            </div>
+
+            <!-- <div class="col-md-4">
+              <label for="cp" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="cp" placeholder="" required="">
+            </div>
+          </div> -->
+
+            <hr class="my-4">
+            <textarea placeholder="Escriba mensaje aqui" class="field"></textarea>
+
+            <!-- <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="misma-direccion">
+            <label class="form-check-label" for="misma-direccion">La dirección de envío es la misma que mi
+              dirección de facturación</label>
+          </div> -->
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="guardar-info">
+              <label class="form-check-label" for="guardar-info">Guarde esta información para la próxima
+                vez</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="guardar-info">
+              <label class="form-check-label" for="guardar-info">Suscribirse al Newsletter</label>
+            </div>
+
+            <hr class="my-4">
+            <div class="form-check">
+              <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+              <label class="form-check-label" for="invalidCheck3">
+                Acepta términos y condiciones
+              </label>
+              <div class="invalid-feedback">
+                Debes estar de acuerdo antes de enviar.
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
 </body>
+
+</html>
 
 </html>
